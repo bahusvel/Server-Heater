@@ -6,7 +6,8 @@ Why not use your servers to heat your office/room? You already have them anyway,
 You will need an arduino with LM35 temperature sensor hooked up to its analog pin 0, (you dont have to use arduino or LM35, you will just have to adjust the temperature sensor code to match your needs)
 
 Then you find out what the serial port your microcontroller is using, its gonna be in /dev/tty[blablabla] (google how to do that).
-Then you specify that port, the temperature you would like the heaters to turn on and turn off, the command to execute to make the servers heat the room, and a command to turn the heaters off (typically kill or killall). Some ideas for heating commands:
+
+Then you specify that port, the temperature you would like the heaters to turn on and turn off, the command to execute to make the servers heat the room, and a command to turn the heaters off (typically kill or killall).Some ideas for heating commands:
 * stress ...
 * bitcoin mining
 * your own idea...
